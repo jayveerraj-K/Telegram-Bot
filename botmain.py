@@ -14,7 +14,7 @@ from telegram.ext import (
 
 # --- CONFIGURATION & LOGGING ---
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_TOKEN_HERE")
+TOKEN = os.getenv("TELEGRAM_TOKEN", "8711614541:AAE1kYZzaEfwlw8qOrcS6Mff0pwpxaEZgQ8")
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
